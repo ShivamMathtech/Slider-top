@@ -1,4 +1,5 @@
 .main-page {
+  height: 100vh;
   background-color: #1e1e28;
   overflow: hidden;
 }
@@ -6,7 +7,7 @@
   background-color: #20202a;
 }
 .mid-bar {
-  height: 94.5vh;
+  height: 100vh;
   scrollbar-width: none;
   overflow-y: auto;
 }
@@ -20,9 +21,7 @@
 .mid-bar:-webkit-scrollbar-track {
   background-color: transparent; /* Hides the track */
 }
-.right-bar {
-  background-color: #20202a;
-}
+
 .img-box-1 {
   height: 250px;
   width: 100%;
@@ -32,8 +31,13 @@
   height: 80px;
   width: 80px;
   border-radius: 50%;
-  background-color: aqua;
+
   margin: auto;
+}
+.circle-img img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
 }
 .content-1 h3 {
   font-size: 20px;
@@ -45,14 +49,17 @@
   color: #818184;
 }
 .info-box {
-  height: 270px;
+  height: 280px;
   width: 100%;
   background-color: #20202a;
   color: white;
   scrollbar-width: none;
   overflow-y: auto;
 }
-
+.footer {
+  height: calc(100vh - 470px);
+  background-color: #2d2d39;
+}
 .info-box::-webkit-scrollbar {
   width: 0; /* Hides the scrollbar for WebKit browsers */
   height: 0; /* Hides the scrollbar for horizontal scroll */
@@ -131,4 +138,24 @@ a {
   height: 400px;
   width: 100%;
   background-color: #2d2d39;
+}
+.list {
+  text-align: justify;
+}
+li::marker {
+  color: #ffc107;
+}
+.reco-box {
+  height: 200px;
+  width: 100%;
+  background-color: #2c2c36;
+  color: white;
+}
+.reco-box p {
+  font-size: 12px;
+  margin-top: -10px;
+  color: #646464;
+}
+.ad p {
+  color: #646464;
 }

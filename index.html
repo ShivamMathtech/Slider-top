@@ -10,10 +10,17 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="container-fluid main-page p-4">
+    <div class="container-fluid main-page p-0">
       <div class="row m-0 h-100">
         <div class="col-md-3 left-bar p-0">
           <div class="row m-0">
@@ -22,7 +29,9 @@
                 class="img-box-1 d-flex justify-content-center align-items-center"
               >
                 <div class="content-1 text-center text-white">
-                  <div class="circle-img"></div>
+                  <div class="circle-img">
+                    <img src="img/img1.jpg" alt="Image 1" />
+                  </div>
                   <h3>Shivam Singh</h3>
                   <p>
                     Front-end Developer
@@ -35,25 +44,103 @@
           </div>
           <div class="row m-0">
             <div class="col p-0">
-              <div class="info-box">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Asperiores blanditiis maiores, ipsam, repudiandae dolor quidem
-                qui distinctio fuga quos doloremque ipsum quo nesciunt expedita
-                facere repellat non tenetur eveniet quasi labore eum totam
-                laboriosam dolores libero. Dolores cum vel delectus ex hic
-                laborum debitis amet, maxime omnis recusandae et eaque beatae,
-                suscipit accusamus? Enim distinctio fugiat repellendus eligendi
-                impedit magni similique delectus! Deserunt quaerat officia
-                voluptatum pariatur commodi temporibus nobis beatae earum
-                nostrum dignissimos illum quae expedita modi incidunt neque
-                laboriosam eos rem magnam, velit aspernatur consequatur porro,
-                tenetur repudiandae. Corrupti magnam officiis a consequatur
-                eligendi dolores repellat reprehenderit quasi?
+              <div class="info-box p-3">
+                <div class="row m-0 text-white">
+                  <div class="col p-0">
+                    <p>Residence :</p>
+                    <p>City:</p>
+                    <p>Age:</p>
+                  </div>
+                  <div class="col d-flex justify-content-end p-0">
+                    <div class="ad p-0">
+                      <p>India</p>
+                      <p>Uttar Pradesh</p>
+                      <p>28</p>
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <div class="row m-0">
+                  <div class="col p-0">
+                    <p>Email:</p>
+                    <p>Phone:</p>
+                  </div>
+                  <div class="col d-flex justify-content-end p-0">
+                    <div class="ad p-0">
+                      <p>shivam@example.com</p>
+                      <p>9876543210</p>
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <div class="row m-0 progress-bar">
+                  <div class="col p-0">
+                    <p>Front-end</p>
+                    <div class="progress">
+                      <div
+                        class="progress-bar bg-success"
+                        role="progressbar"
+                        style="width: 80%"
+                        aria-valuenow="80"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row m-0 progress-bar">
+                  <div class="col p-0">
+                    <p>Back-end</p>
+                    <div class="progress">
+                      <div
+                        class="progress-bar bg-primary"
+                        role="progressbar"
+                        style="width: 70%"
+                        aria-valuenow="70"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row m-0 progress-bar">
+                  <div class="col p-0">
+                    <p>UI/UX</p>
+                    <div class="progress">
+                      <div
+                        class="progress-bar bg-danger"
+                        role="progressbar"
+                        style="width: 60%"
+                        aria-valuenow="60"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row m-0 progress-bar">
+                  <div class="col p-0">
+                    <p>Data Science</p>
+                    <div class="progress">
+                      <div
+                        class="progress-bar bg-warning"
+                        role="progressbar"
+                        style="width: 50%"
+                        aria-valuenow="50"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+          <div class="row m-0">
+            <div class="col footer p-0"></div>
+          </div>
         </div>
-        <div class="col-md-8 mid-bar">
+        <div class="col-md-9 mid-bar">
           <div class="overlay-2">
             <div class="row m-0">
               <div class="col p-0 mid-img-box">
@@ -194,17 +281,147 @@
           </div>
           <div class="row m-0">
             <div class="col p-1">
-              <div class="price-box"></div>
+              <div
+                class="price-box p-4 d-flex justify-content-center align-items-center"
+              >
+                <div class="price-content text-white text-center">
+                  <h6>Starter Price</h6>
+                  <h1 class="myclr1">FREE</h1>
+                  <div class="list mt-4">
+                    <ul>
+                      <li>Unlimited Projects</li>
+                      <li>100% Uptime</li>
+                      <li>Email Support</li>
+                      <li>Free Design Files</li>
+                      <li>100 Free Hours</li>
+                    </ul>
+                  </div>
+                  <button class="btn mybtn1 rounded-0">GET STARTED</button>
+                </div>
+              </div>
             </div>
             <div class="col p-1">
-              <div class="price-box"></div>
+              <div
+                class="price-box p-4 d-flex justify-content-center align-items-center"
+              >
+                <div class="price-content text-white text-center">
+                  <h6>Professional Price</h6>
+                  <h1 class="myclr1">$99</h1>
+                  <div class="list mt-4">
+                    <ul>
+                      <li>Unlimited Projects</li>
+                      <li>100% Uptime</li>
+                      <li>Email Support</li>
+                      <li>Free Design Files</li>
+                      <li>100 Free Hours</li>
+                    </ul>
+                  </div>
+                  <button class="btn mybtn1 rounded-0">GET STARTED</button>
+                </div>
+              </div>
             </div>
             <div class="col p-1">
-              <div class="price-box"></div>
+              <div
+                class="price-box p-4 d-flex justify-content-center align-items-center"
+              >
+                <div class="price-content text-white text-center">
+                  <h6>Enterprise Price</h6>
+                  <h1 class="myclr1">$199</h1>
+                  <div class="list mt-4">
+                    <ul>
+                      <li>Unlimited Projects</li>
+                      <li>100% Uptime</li>
+                      <li>Email Support</li>
+                      <li>Free Design Files</li>
+                      <li>100 Free Hours</li>
+                    </ul>
+                  </div>
+                  <button class="btn mybtn1 rounded-0">GET STARTED</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row m-0 mt-2">
+            <div class="col p-2 text-white">
+              <h4>Recommendations</h4>
+            </div>
+          </div>
+          <div class="row m-0">
+            <div class="col">
+              <div class="reco-box p-4">
+                <h6>Front-End Development</h6>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Doloribus nisi repudiandae assumenda, voluptas, unde
+                  voluptatibus repellendus, veniam repellat fugit earum nobis
+                  in. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ratione, ducimus!
+                </p>
+                <b class="myclr1"><a href="" class="myclr1">Read More ></a></b>
+              </div>
+            </div>
+            <div class="col">
+              <div class="reco-box p-4">
+                <h6>Back-End Development</h6>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Doloribus nisi repudiandae assumenda, voluptas, unde
+                  voluptatibus repellendus, veniam repellat fugit earum nobis
+                  in. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Nesciunt, ratione.
+                </p>
+                <b class="myclr1"><a href="" class="myclr1">Read More ></a></b>
+              </div>
+            </div>
+          </div>
+          <div class="row m-0 mt-2">
+            <div class="col p-2 text-white">
+              <h4>Contact Us</h4>
+            </div>
+          </div>
+          <div class="row m-0">
+            <div class="col p-2">
+              <div class="contact-box p-4 text-white">
+                <h6>Contact Information</h6>
+                <p>Address: 123 Main St, Anytown, USA 12345</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>Email: support@example.com</p>
+                <a href="mailto:support@example.com" class="myclr1">
+                  Contact Us
+                </a>
+                <div class="social-media-icons">
+                  <a href="#"><i class="fa-brands fa-facebook-f myclr1"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter myclr1"></i></a>
+                  <a href="#"><i class="fa-brands fa-instagram myclr1"></i></a>
+                  <a href="#"
+                    ><i class="fa-brands fa-linkedin-in myclr1"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row m-0 mt-2">
+            <div class="col p-2 text-white">
+              <h4>Subscribe to Our Newsletter</h4>
+            </div>
+          </div>
+          <div class="row m-0">
+            <div class="col p-2">
+              <div class="newsletter-box p-4 text-white">
+                <form action="" class="d-flex">
+                  <input
+                    type="email"
+                    placeholder="Enter your email address"
+                    class="form-control w-75 rounded-0 me-2"
+                  />
+                  <button type="submit" class="btn mybtn1 rounded-0">
+                    Subscribe
+                  </button>
+                </form>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-1 right-bar"></div>
       </div>
     </div>
   </body>
